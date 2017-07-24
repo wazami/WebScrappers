@@ -13,12 +13,12 @@ def linkedin(title,maxPages):
     time.sleep(20)"""
 
     #auto login
-    driver = webdriver.Chrome("/Users/HNizami/Downloads/chromedriver")
+    driver = webdriver.Chrome("You need to download chromedriver. Please put the path over here.")
     driver.get("https://www.linkedin.com/")
     username = driver.find_element_by_id("login-email")
     password = driver.find_element_by_id("login-password")
-    username.send_keys("hamzahanizami@gmail.com")
-    password.send_keys("Dr5g0nxHndd")
+    username.send_keys("input your LinkedIn login email over here")
+    password.send_keys("input your LinkedIn password over here")
     login_attempt = driver.find_element_by_xpath("//*[@type='submit']")
     login_attempt.submit()
 
