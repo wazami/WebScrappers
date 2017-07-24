@@ -7,7 +7,7 @@ import time
 from bs4 import BeautifulSoup as soup
 
 def indeed(): 
-	driver = webdriver.Chrome("/Users/HNizami/Downloads/chromedriver")
+	driver = webdriver.Chrome("You need to download chromedriver. Put the download path for it over here.")
 	driver.get("https://www.dice.com/jobs?q=Cybersecurity&l=New+York%2C+NY&searchid=4666161751595&stst=")
 
 	filename = "people_dice.csv"
